@@ -212,17 +212,6 @@ Machine Learning & Deep Learning Enthusiast
 
 ---
 
-# ⭐ Future Improvements
-
-- Higher model accuracy
-- Grad-CAM visualization
-- Model comparison
-- Mobile-friendly interface
-- Cloud deployment
-- Patient report generation
-
----
-
 # 📜 License
 
 This project is developed for educational and learning purposes.
