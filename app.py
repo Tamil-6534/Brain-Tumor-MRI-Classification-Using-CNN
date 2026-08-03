@@ -19,20 +19,8 @@ st.set_page_config(
 # Load Model
 # ======================================================
 
-import os
-
 @st.cache_resource
 def load_cnn():
-
-    st.write("Current Folder:", os.getcwd())
-
-    st.write("Files in Folder:", os.listdir())
-
-    st.write("Model Exists:", os.path.exists("brain_tumor_model.keras"))
-
-    if os.path.exists("brain_tumor_model.keras"):
-        st.write("Model Size:", os.path.getsize("brain_tumor_model.keras"))
-
     return load_model("brain_tumor_model.keras")
 
 model = load_cnn()
