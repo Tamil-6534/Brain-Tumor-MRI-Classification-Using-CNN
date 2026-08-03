@@ -7,6 +7,11 @@ A Deep Learning-based web application that classifies Brain MRI images into four
 
 ---
 
+## Live Demo
+
+🚀 Brain Tumor MRI Classification App:
+https://brain-tumor-mri-classification-using-cnn-qnyfkostbge7guizpq4c6.streamlit.app/#brain-tumor-mri-classification
+
 # 📌 Project Overview
 
 This project uses a trained CNN model to classify MRI brain images into one of the following categories:
