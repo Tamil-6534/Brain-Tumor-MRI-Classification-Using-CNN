@@ -21,7 +21,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_cnn():
-    return load_model("brain_tumor_model.keras")
+    return load_model("brain_tumor_model.h5")
 
 model = load_cnn()
 
